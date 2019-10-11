@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        ws(dir: 'C:\\Program Files\\Git\\usr\\bin\\bash.exe') {
+        ws(dir: 'C:\\Program Files\\Git\\usr\\bin\\sh.exe') {
           sh '''pipeline{
    agent any
    stages {
