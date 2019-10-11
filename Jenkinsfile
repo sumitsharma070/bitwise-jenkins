@@ -9,9 +9,8 @@ pipeline {
   stages {
     stage('Compile') {
       steps {
-        echo 'Compiling the code'
         ws(dir: 'C:\\Program Files\\Git\\usr\\bin') {
-          sh 'echo compile'
+          sh 'echo build'
         }
 
       }
