@@ -1,1 +1,1 @@
-# bitwise-jenkins
+# jhipster-sample-app
