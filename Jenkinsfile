@@ -3,8 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh '''Bash
-echo Build'''
+        sh 'echo Build'
       }
     }
     stage('Backend') {
