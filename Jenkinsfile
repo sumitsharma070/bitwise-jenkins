@@ -3,7 +3,11 @@ pipeline {
   stages {
     stage('Compile') {
       steps {
-        echo 'hi'
+        sh '''git \'https://github.com/sumitsharma070/central.git\'
+                 
+      mvnHome = tool \'M3\'
+      
+      echo pwd()'''
       }
     }
   }
