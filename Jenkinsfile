@@ -16,6 +16,7 @@ pipeline {
           bat(script: 'bat(/"%MAVEN_HOME%\\bin\\mvn" -Dmaven.test.failure.ignore clean package/)', returnStatus: true)
         }
 
+        bat(script: 'bat(/"%MAVEN_HOME%\\bin\\mvn" -Dmaven.test.failure.ignore clean package/)', returnStatus: true)
       }
     }
   }
