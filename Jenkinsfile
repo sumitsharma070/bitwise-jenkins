@@ -3,8 +3,7 @@ pipeline {
   stages {
     stage('Compile') {
       steps {
-        git(url: 'https://github.com/sumitsharma070/jhipster-sample-app.git', branch: 'master', credentialsId: '188ce79b-de69-480b-a8b5-c3a72c827761')
-        load 'C:\\'
+        git(url: 'https://github.com/sumitsharma070/jhipster-sample-app.git', branch: 'master', credentialsId: 'e2d94792-6bd6-4bda-84bd-ac1bf3c7a845')
       }
     }
   }
